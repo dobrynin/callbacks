@@ -25,7 +25,7 @@ class Game {
           console.log("You win!");
           completionCallback();
         } else {
-          this.run(completionCallback);
+          this.run(completeCallback);
         }
       });
     });
